@@ -16,6 +16,8 @@ struct HeaderTabView: View {
                 HeaderItemView(header: header)
                     .padding(.top,10)
                     .padding(.horizontal,15)
+                
+                
             }
         }
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
